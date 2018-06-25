@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
     with open('authorized_keys', 'w') as auth_keys:
         auth_keys.write(args.default_keys.read())
-
+sirrrrrrrrrr
     for server_ip in hosts:
         connection = connect_to_host(server_ip)
         connection.exec_command("ssh-keygen -t rsa -f .ssh/id_rsa -N ''")
